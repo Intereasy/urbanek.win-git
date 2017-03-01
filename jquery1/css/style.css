@@ -1,0 +1,48 @@
+body{
+background:#303030;
+font-family:verdana;
+}
+
+
+a:link img, a:visited img{
+display:none;
+}
+a:hover img, a:active img{
+display:block;
+}
+a{
+text-decoration:none;
+color:#fff;
+}
+
+
+#clickMe1, #clickMe2, #clickMe3, #clickMe4, #clickMe5, #clickMe6, #clickMe7{
+margin:0 auto;
+background:#D8B36E;
+padding: 5px 25px;
+text-align:center;
+width:750px;
+display:block;
+border:2px solid #000;
+cursor:pointer;
+}
+
+#pickframe1{
+margin:0 auto;
+background:#D8B36E;
+padding:25px;
+text-align:center;
+width:750px;
+display:block;
+border:2px solid #000;
+}
+
+ #pickframe2, #pickframe3, #pickframe4, #pickframe5, #pickframe6, #pickframe7{
+margin:0 auto;
+background:#D8B36E;
+padding:25px;
+text-align:center;
+width:750px;
+display:none;
+border:2px solid #000;
+}
